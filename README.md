@@ -9,11 +9,11 @@ This repository provides the implementation and supplementary resources for the 
 
 If you use this work, please cite our IEEE BlackSeaCom 2025 paper:  
 
-**IEEE Reference Style:**  
+**IEEE Reference:**  
 G. Ateş, B. Çelebi, U. A. Semerci, E. Çapkan, B. Yıldırım, İ. Ar, and T. Arsan,  
 "OB-IDS: Optimized BERT-based Intrusion Detection System," *Proc. IEEE BlackSeaCom*, Istanbul, Turkey, 2025.  
 
-**BibTeX (IEEE Xplore compatible):**  
+**BibTeX Reference:**  
 
 ```bibtex
 @inproceedings{ates2025obids,
