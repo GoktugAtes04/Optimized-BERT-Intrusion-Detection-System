@@ -1,9 +1,7 @@
 # Optimized-BERT-Intrusion-Detection-System
 
-> **📢 IEEE BlackSeaCom 2025 Paper**  
-> This repository provides the implementation and supplementary resources for the research study  
-> *“OB-IDS: Optimized BERT-based Intrusion Detection System”*,  
-> which has been **accepted for presentation and publication in the Proceedings of IEEE BlackSeaCom 2025**. 
+**📢 IEEE BlackSeaCom 2025 Paper**  
+This repository provides the implementation and supplementary resources for the research study *“OB-IDS: Optimized BERT-based Intrusion Detection System”*, which has been **accepted for presentation and publication in the Proceedings of IEEE BlackSeaCom 2025**. 
 
 ---
 
