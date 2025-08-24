@@ -1,6 +1,5 @@
 # Optimized-BERT-Intrusion-Detection-System
 
----
 
 <p align="center">
   📄 <b>IEEE BlackSeaCom 2025 Paper Publication</b><br><br>
