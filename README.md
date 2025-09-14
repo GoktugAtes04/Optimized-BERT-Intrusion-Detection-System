@@ -16,7 +16,7 @@ If you use this work, please cite OB-IDS paper:
 
 **IEEE Reference:**  
 G. Ateş, B. Çelebi, U. A. Semerci, E. Çapkan, B. Yıldırım, İ. Ar, and T. Arsan,  
-"OB-IDS: Optimized BERT-based Intrusion Detection System," *Proc. IEEE BlackSeaCom*, Istanbul, Turkey, 2025.  
+"OB-IDS: Optimized BERT-based Intrusion Detection System", *Proc. IEEE BlackSeaCom*, Istanbul, Turkey, 2025.  
 
 **BibTeX Reference:**  
 
