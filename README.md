@@ -16,7 +16,6 @@ If you use this work, please cite OB-IDS paper:
 
 **IEEE Reference:**  
 G. Ateş et al., "OB-IDS: Optimized BERT-based Intrusion Detection System," 2025 IEEE International Black Sea Conference on Communications and Networking (BlackSeaCom), Chisinau, Moldova, Republic of, 2025, pp. 1-4, doi: 10.1109/BlackSeaCom65655.2025.11193891. 
-keywords: {Measurement;Quantization (signal);Accuracy;Intrusion detection;Network security;Transformers;Throughput;Threat assessment;Real-time systems;Optimization;intrusion detection;BERT;model optimization;network security;fine-tuning;quantization;machine learning;cybersecurity},
 
 
 **BibTeX Reference:**  
@@ -27,10 +26,7 @@ keywords: {Measurement;Quantization (signal);Accuracy;Intrusion detection;Networ
   booktitle={2025 IEEE International Black Sea Conference on Communications and Networking (BlackSeaCom)}, 
   title={OB-IDS: Optimized BERT-based Intrusion Detection System}, 
   year={2025},
-  volume={},
-  number={},
   pages={1-4},
-  keywords={Measurement;Quantization (signal);Accuracy;Intrusion detection;Network security;Transformers;Throughput;Threat assessment;Real-time systems;Optimization;intrusion detection;BERT;model optimization;network security;fine-tuning;quantization;machine learning;cybersecurity},
   doi={10.1109/BlackSeaCom65655.2025.11193891}}
 ```
 
