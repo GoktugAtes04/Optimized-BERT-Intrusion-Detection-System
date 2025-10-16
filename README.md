@@ -22,7 +22,15 @@ G. Ateş et al., "OB-IDS: Optimized BERT-based Intrusion Detection System," 2025
 
 ```bibtex
 @INPROCEEDINGS{11193891,
-  author={Ateş, Göktuğ and Çelebi, Başar and Semerci, Umut Aytuğ and Çapkan, Emircan and Yıldırım, Batuhan and Ar, İlktan and Arsan, Taner},
+  author = {
+    Ateş, Göktuğ and 
+    Çelebi, Başar and 
+    Semerci, Umut Aytuğ and 
+    Çapkan, Emircan and 
+    Yıldırım, Batuhan and 
+    Ar, İlktan and 
+    Arsan, Taner
+  },
   booktitle={2025 IEEE International Black Sea Conference on Communications and Networking (BlackSeaCom)}, 
   title={OB-IDS: Optimized BERT-based Intrusion Detection System}, 
   year={2025},
