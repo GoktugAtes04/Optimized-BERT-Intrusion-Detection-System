@@ -15,23 +15,23 @@
 If you use this work, please cite OB-IDS paper:  
 
 **IEEE Reference:**  
-G. Ateş, B. Çelebi, U. A. Semerci, E. Çapkan, B. Yıldırım, İ. Ar, and T. Arsan,  
-"OB-IDS: Optimized BERT-based Intrusion Detection System", *Proc. IEEE BlackSeaCom*, Istanbul, Turkey, 2025.  
+G. Ateş et al., "OB-IDS: Optimized BERT-based Intrusion Detection System," 2025 IEEE International Black Sea Conference on Communications and Networking (BlackSeaCom), Chisinau, Moldova, Republic of, 2025, pp. 1-4, doi: 10.1109/BlackSeaCom65655.2025.11193891. 
+keywords: {Measurement;Quantization (signal);Accuracy;Intrusion detection;Network security;Transformers;Throughput;Threat assessment;Real-time systems;Optimization;intrusion detection;BERT;model optimization;network security;fine-tuning;quantization;machine learning;cybersecurity},
+
 
 **BibTeX Reference:**  
 
 ```bibtex
-@inproceedings{ates2025obids,
-  author    = {Göktuğ Ateş and Başar Çelebi and Umut Aytuğ Semerci and Emircan Çapkan and Batuhan Yıldırım and İlktan Ar and Taner Arsan},
-  title     = {OB-IDS: Optimized BERT-based Intrusion Detection System},
-  booktitle = {Proc. IEEE International Black Sea Conference on Communications and Networking (BlackSeaCom)},
-  year      = {2025},
-  address   = {Istanbul, Turkey},
-  publisher = {IEEE},
-  pages     = {1-4},                   
-  doi       = {10.1109/BlackSeaCom.2025.xxxxx},  
-  isbn      = {978-1-6654-xxxx-x}      
-}
+@INPROCEEDINGS{11193891,
+  author={Ateş, Göktuğ and Çelebi, Başar and Semerci, Umut Aytuğ and Çapkan, Emircan and Yıldırım, Batuhan and Ar, İlktan and Arsan, Taner},
+  booktitle={2025 IEEE International Black Sea Conference on Communications and Networking (BlackSeaCom)}, 
+  title={OB-IDS: Optimized BERT-based Intrusion Detection System}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-4},
+  keywords={Measurement;Quantization (signal);Accuracy;Intrusion detection;Network security;Transformers;Throughput;Threat assessment;Real-time systems;Optimization;intrusion detection;BERT;model optimization;network security;fine-tuning;quantization;machine learning;cybersecurity},
+  doi={10.1109/BlackSeaCom65655.2025.11193891}}
 ```
 
 ---
