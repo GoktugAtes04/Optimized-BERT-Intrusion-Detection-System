@@ -58,7 +58,7 @@ G. Ateş et al., "OB-IDS: Optimized BERT-based Intrusion Detection System," 2025
 ## 🔬 Fine-Tuning Approaches
 
 <p id="fig-exp-structure" align="center">
-  <img src="Docs/Fine-Tuning-Approaches/Experiment-Structure.png" alt="Experiment Structure — OB-IDS" width="300">
+  <img src="Docs/Fine-Tuning-Approaches/Experiment-Structure.png" alt="Experiment Structure — OB-IDS" width="500">
 </p>
 
 **1.** **Baseline** **Model:**
