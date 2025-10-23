@@ -52,3 +52,19 @@ G. Ateş et al., "OB-IDS: Optimized BERT-based Intrusion Detection System," 2025
 | **Features** | 🧩 Two main groups: <br>&nbsp;&nbsp;&nbsp;• **Header Fields** — IP src/dst, ports, protocol, flags, length, etc. <br>&nbsp;&nbsp;&nbsp;• **Payload** — raw packet content (hex/byte sequence) <br><details><summary><small>See TCP/IP Packet Structure </small></summary><br><img src="Docs/Fine-Tuning-Approaches/TCP-IP-Packet-Structure.png" alt="TCP/IP Packet Structure" width="90%"></details> |
 | **Format**   | 🗂️ *Parquet* |
 | **Original Sources** | 🏛️ CIC-IDS2017 & UNSW-NB15 datasets |
+
+---
+
+## 🔬 Fine-Tuning Approaches
+
+<p id="fig-exp-structure" align="center">
+  <img src="Docs/Fine-Tuning-Approaches/Experiment-Structure.png" alt="Experiment Structure — OB-IDS" width="900">
+</p>
+
+**1.** **Baseline** **Model:**
+
+
+---
+
+## 📊 Experimental Results
+
