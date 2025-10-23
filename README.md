@@ -61,8 +61,16 @@ G. Ateş et al., "OB-IDS: Optimized BERT-based Intrusion Detection System," 2025
   <img src="Docs/Fine-Tuning-Approaches/Experiment-Structure.png" alt="Experiment Structure — OB-IDS" width="500">
 </p>
 
-**1.** **Baseline** **Model:**
+***1.*** ***Baseline*** ***Model:*** The Baseline model has been fine tuned for the task of classifying packets on 24 different classes by converting the flow, header and payload information contained in packets to text using BERT architecture.
 
+***2.*** ***Quantization:*** It reduces the weights of the model using precision levels. It allows the model to consume less memory, inference time and energy in terms of the system resources at low system requirements. 
+
+***3.*** ***Pruning:*** It aims to ensure that the model provides performance
+enhancement in terms of throughput by removing the weights of the model or the components such as neurons located in its intermediate layers.
+
+***4.*** ***Knowledge*** ***Distillation:*** It aims to use soft labels emerging from the teacher model and the ground truth labels contained in the dataset according to the loss function determined during the fine tuning process on the student model, without compromising accuracy and F1-score.
+
+***5.*** ***Self*** ***Distillation:*** It employs the model as its own teacher and it has been shown to get better current performance by not adding parameters to the model or reducing overfitting.
 
 ---
 
