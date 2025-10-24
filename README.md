@@ -1,8 +1,11 @@
 # Optimized-BERT-Intrusion-Detection-System
 
+<p align="center">
+  <img src="Docs/IEEE-BlackSeaCom-Logo.png" width="320" alt="IEEE BlackSeaCom 2025 Logo">
+</p>
 
 <p align="center">
-  📄 <b>IEEE BlackSeaCom 2025 Paper Publication</b><br><br>
+  <b>IEEE BlackSeaCom 2025 Paper Publication</b><br><br>
   This repository provides the implementation and supplementary resources for the research study<br>
   <b>“OB-IDS: Optimized BERT-based Intrusion Detection System”</b><br>
   <i>Accepted for presentation and publication in the Proceedings of IEEE BlackSeaCom 2025</i>
@@ -15,23 +18,27 @@
 If you use this work, please cite OB-IDS paper:  
 
 **IEEE Reference:**  
-G. Ateş, B. Çelebi, U. A. Semerci, E. Çapkan, B. Yıldırım, İ. Ar, and T. Arsan,  
-"OB-IDS: Optimized BERT-based Intrusion Detection System," *Proc. IEEE BlackSeaCom*, Istanbul, Turkey, 2025.  
+G. Ateş et al., "OB-IDS: Optimized BERT-based Intrusion Detection System," 2025 IEEE International Black Sea Conference on Communications and Networking (BlackSeaCom), Chisinau, Moldova, Republic of, 2025, pp. 1-4, doi: 10.1109/BlackSeaCom65655.2025.11193891. 
+
 
 **BibTeX Reference:**  
 
 ```bibtex
-@inproceedings{ates2025obids,
-  author    = {Göktuğ Ateş and Başar Çelebi and Umut Aytuğ Semerci and Emircan Çapkan and Batuhan Yıldırım and İlktan Ar and Taner Arsan},
-  title     = {OB-IDS: Optimized BERT-based Intrusion Detection System},
-  booktitle = {Proc. IEEE International Black Sea Conference on Communications and Networking (BlackSeaCom)},
-  year      = {2025},
-  address   = {Istanbul, Turkey},
-  publisher = {IEEE},
-  pages     = {1-4},                   
-  doi       = {10.1109/BlackSeaCom.2025.xxxxx},  
-  isbn      = {978-1-6654-xxxx-x}      
-}
+@INPROCEEDINGS{11193891,
+  author = {
+    Ateş, Göktuğ and 
+    Çelebi, Başar and 
+    Semerci, Umut Aytuğ and 
+    Çapkan, Emircan and 
+    Yıldırım, Batuhan and 
+    Ar, İlktan and 
+    Arsan, Taner
+  },
+  booktitle={2025 IEEE International Black Sea Conference on Communications and Networking (BlackSeaCom)}, 
+  title={OB-IDS: Optimized BERT-based Intrusion Detection System}, 
+  year={2025},
+  pages={1-4},
+  doi={10.1109/BlackSeaCom65655.2025.11193891}}
 ```
 
 ---
@@ -48,3 +55,27 @@ G. Ateş, B. Çelebi, U. A. Semerci, E. Çapkan, B. Yıldırım, İ. Ar, and T. 
 | **Features** | 🧩 Two main groups: <br>&nbsp;&nbsp;&nbsp;• **Header Fields** — IP src/dst, ports, protocol, flags, length, etc. <br>&nbsp;&nbsp;&nbsp;• **Payload** — raw packet content (hex/byte sequence) <br><details><summary><small>See TCP/IP Packet Structure </small></summary><br><img src="Docs/Fine-Tuning-Approaches/TCP-IP-Packet-Structure.png" alt="TCP/IP Packet Structure" width="90%"></details> |
 | **Format**   | 🗂️ *Parquet* |
 | **Original Sources** | 🏛️ CIC-IDS2017 & UNSW-NB15 datasets |
+
+---
+
+## 🔬 Fine-Tuning Approaches
+
+<p id="fig-exp-structure" align="center">
+  <img src="Docs/Fine-Tuning-Approaches/Experiment-Structure.png" alt="Experiment Structure — OB-IDS" width="500">
+</p>
+
+***1.*** ***Baseline*** ***Model:*** The Baseline model has been fine tuned for the task of classifying packets on 24 different classes by converting the flow, header and payload information contained in packets to text using BERT architecture.
+
+***2.*** ***Quantization:*** It reduces the weights of the model using precision levels. It allows the model to consume less memory, inference time and energy in terms of the system resources at low system requirements. 
+
+***3.*** ***Pruning:*** It aims to ensure that the model provides performance
+enhancement in terms of throughput by removing the weights of the model or the components such as neurons located in its intermediate layers.
+
+***4.*** ***Knowledge*** ***Distillation:*** It aims to use soft labels emerging from the teacher model and the ground truth labels contained in the dataset according to the loss function determined during the fine tuning process on the student model, without compromising accuracy and F1-score.
+
+***5.*** ***Self*** ***Distillation:*** It employs the model as its own teacher and it has been shown to get better current performance by not adding parameters to the model or reducing overfitting.
+
+---
+
+## 📊 Experimental Results
+
