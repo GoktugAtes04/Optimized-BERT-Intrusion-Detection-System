@@ -1,8 +1,11 @@
 # Optimized-BERT-Intrusion-Detection-System
 
+<p align="center">
+  <img src="Docs/IEEE-BlackSeaCom-Logo.png" width="320" alt="IEEE BlackSeaCom 2025 Logo">
+</p>
 
 <p align="center">
-  📄 <b>IEEE BlackSeaCom 2025 Paper Publication</b><br><br>
+  <b>IEEE BlackSeaCom 2025 Paper Publication</b><br><br>
   This repository provides the implementation and supplementary resources for the research study<br>
   <b>“OB-IDS: Optimized BERT-based Intrusion Detection System”</b><br>
   <i>Accepted for presentation and publication in the Proceedings of IEEE BlackSeaCom 2025</i>
