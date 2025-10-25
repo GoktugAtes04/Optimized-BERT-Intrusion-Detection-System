@@ -1,4 +1,4 @@
-# Optimized-BERT-Intrusion-Detection-System
+# Optimized BERT-based Intrusion Detection System
 
 <p align="center">
   <img src="Docs/IEEE-BlackSeaCom-Logo.png" width="320" alt="IEEE BlackSeaCom 2025 Logo">
@@ -77,5 +77,27 @@ enhancement in terms of throughput by removing the weights of the model or the c
 
 ---
 
-## 📊 Experimental Results
+## 📑 Experimental Results
 
+### Hardware Specs & Metrics for Fine-Tuning & Testing
+
+| **Setting**                  | **Fine-Tuning**                                                                  | **Testing**                                                                       |
+|------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| **GPU Model**              | NVIDIA A100                                                                            | NVIDIA L4                                                                                 |
+| **Memory Capacity**          | 40 GB                                                                                  | 22.5 GB                                                                                   |
+| **Memory Type**              | HBM2E (High Bandwidth Memory)                                                | GDDR6 VRAM                                                                                |
+| **Metrics**       | Model Size (MB), Accuracy (%), F1-score (%), Throughput (flows/s)                            |
+
+### Model Performance Metrics
+
+| Method                              | Size (MB) | Accuracy (%) | F1-score (%) | Throughput (samples/sec) |
+|-------------------------------------|-----------|--------------|--------------|---------------------------|
+| **Baseline Model**                  | 251.01    | 99.5627      | 98.70        | **3702** |
+| **NF4 Quantization**                | **21.11** | 99.5639      | **98.74**    | 1504 |
+| **Structured Pruning**              | 251.01    | **99.5655**  | **98.74**    | 3242 |
+| **Structured + FP16**               | 84.44     | **99.5655**  | **98.74**    | 3589 |
+| **NF4 (Teacher) + KD**<br/><sub><i>Knowledge Distillation</i></sub> | **72.60** | 99.19        | 94.02        | 3633 |
+| **Student Model + SD**<br/><sub><i>Self Distillation</i></sub>      | **72.60** | 99.23        | 96.84 
+---
+
+## 📊 References
