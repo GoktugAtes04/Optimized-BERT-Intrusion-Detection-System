@@ -79,7 +79,7 @@ enhancement in terms of throughput by removing the weights of the model or the c
 
 ## 📑 Experimental Results
 
-### Hardware Specs for Fine-Tuning & Testing
+### Hardware Specs for Fine-Tuning & Model Evaluation
 
 | **Setting**                  | **Fine-Tuning**                                                                  | **Testing**                                                                       |
 |------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ enhancement in terms of throughput by removing the weights of the model or the c
 | **Memory Type**              | HBM2E (High Bandwidth Memory)                                                | GDDR6 VRAM                                                                                |
                  
 
-### Metrics for Fine-Tuning & Testing
+### Metrics for Fine-Tuning & Model Evaluation
 - **Model Size (MB)**
 - **Accuracy (%)**
 - **F1-score (%)**
@@ -108,11 +108,19 @@ enhancement in terms of throughput by removing the weights of the model or the c
 ### Details of Experimental Results
 
 - Comparison of Quantization Precision Types [(View Results)](Docs/Results/Quantization-Results.png)
+[Source Code for Quantization Methods](Docs/Notebooks/Quantization-IDS.ipynb)
 
 - Impact of Structured Pruning and Quantization on Metrics [(View Results)](Docs/Results/Pruning-Quantization-Results.png)
 
 - Metrics for KD and SD Under Different Compression Settings [(View Results)](Docs/Results/KD-SD-Results.png)
 
+### Source Codes of Fine-Tuning & Model Evaluation
+
+- Source Code for Quantization and Pruning Methods [(View)](Docs/Notebooks/Quantization-Pruning-IDS.ipynb)
+
+- Source Code for Knowledge Distillation and Self Distillation Methods [(View)](Docs/Notebooks/Knowledge-Self-Distillation-IDS.ipynb)
+
+- Source Code for Model Evaluation [(View)](Docs/Notebooks/IDS-Model-Evaluation.ipynb)
 ---
 
 ## 🏁 Benchmark Comparison
