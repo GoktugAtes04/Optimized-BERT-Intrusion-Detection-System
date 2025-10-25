@@ -71,15 +71,15 @@ G. Ateş et al., "OB-IDS: Optimized BERT-based Intrusion Detection System," 2025
 ***3.*** ***Pruning:*** It aims to ensure that the model provides performance
 enhancement in terms of throughput by removing the weights of the model or the components such as neurons located in its intermediate layers.
 
-***4.*** ***Knowledge*** ***Distillation:*** It aims to use soft labels emerging from the teacher model and the ground truth labels contained in the dataset according to the loss function determined during the fine tuning process on the student model, without compromising accuracy and F1-score.
+***4.*** ***Knowledge*** ***Distillation (KD):*** It aims to use soft labels emerging from the teacher model and the ground truth labels contained in the dataset according to the loss function determined during the fine tuning process on the student model, without compromising accuracy and F1-score.
 
-***5.*** ***Self*** ***Distillation:*** It employs the model as its own teacher and it has been shown to get better current performance by not adding parameters to the model or reducing overfitting.
+***5.*** ***Self*** ***Distillation (SD):*** It employs the model as its own teacher and it has been shown to get better current performance by not adding parameters to the model or reducing overfitting.
 
 ---
 
 ## 📑 Experimental Results
 
-### Hardware Specs for Fine-Tuning & Testing
+### Hardware Specs for Model Fine-Tuning & Evaluation
 
 | **Setting**                  | **Fine-Tuning**                                                                  | **Testing**                                                                       |
 |------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ enhancement in terms of throughput by removing the weights of the model or the c
 | **Memory Type**              | HBM2E (High Bandwidth Memory)                                                | GDDR6 VRAM                                                                                |
                  
 
-### Metrics for Fine-Tuning & Testing
+### Metrics for Model Fine-Tuning & Evaluation
 - **Model Size (MB)**
 - **Accuracy (%)**
 - **F1-score (%)**
@@ -113,6 +113,15 @@ enhancement in terms of throughput by removing the weights of the model or the c
 
 - Metrics for KD and SD Under Different Compression Settings [(View Results)](Docs/Results/KD-SD-Results.png)
 
+### Source Codes of Model Fine-Tuning & Evaluation
+
+- Source Code for Quantization and Pruning Methods [(View)](Notebooks/Quantization-Pruning-IDS.ipynb)
+
+- Source Code for Knowledge Distillation and Self Distillation Methods [(View)](Notebooks/Knowledge-Self-Distillation-IDS.ipynb)
+
+- Source Code for Model Evaluation [(View)](Notebooks/IDS-Model-Evaluation.ipynb)
+
+Notebooks/Quantization-Pruning-IDS.ipynb
 ---
 
 ## 🏁 Benchmark Comparison
@@ -127,6 +136,6 @@ Pruned and FP16 quantized BERT model performed well in UNSWB-NB15 and CIC-IDS201
 
 ## 📖 References
 
-This repository contains 21 references including network intrusion datasets, Transformer-based traffic classification, and model optimization techniques (quantization, pruning, FP16, knowledge distillation, and self-distillation).
+This repository contains 21 references including network intrusion datasets, Transformer-based text classification, and model optimization methods (Quantization, Pruning, Knowledge Distillation, and Self Distillation).
 
-**Full Reference List** [(View References)](Docs/References.png) 
+**Full Reference List** [(View)](Docs/References.png) 
