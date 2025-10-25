@@ -94,7 +94,7 @@ enhancement in terms of throughput by removing the weights of the model or the c
 - **F1-score (%)**
 - **Throughput (flows/s)**, which express the number of m flows in each n batch with the batch rate (n batches per second), such as (1 batch/s x 32 flows)
 
-### Model Performance Metrics
+### Summary of Experimental Results
 
 | Method                              | Size (MB) | Accuracy (%) | F1-score (%) | Throughput (flows/s) |
 |-------------------------------------|-----------|--------------|--------------|---------------------------|
@@ -105,7 +105,7 @@ enhancement in terms of throughput by removing the weights of the model or the c
 | **NF4 (Teacher) + KD** | **72.60** | 99.19        | 94.02        | 3633 |
 | **Student Model + SD**      | **72.60** | 99.23        | 96.84   | 3694 |
 
-### Notes
+### Details of Experimental Results
 
 - Comparison of Quantization Precision Types [(View Results)](Docs/Results/Quantization-Results.png)
 
