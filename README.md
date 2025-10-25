@@ -96,7 +96,7 @@ enhancement in terms of throughput by removing the weights of the model or the c
 
 ### Model Performance Metrics
 
-| Method                              | Size (MB) | Accuracy (%) | F1-score (%) | Throughput (samples/sec) |
+| Method                              | Size (MB) | Accuracy (%) | F1-score (%) | Throughput (flows/s) |
 |-------------------------------------|-----------|--------------|--------------|---------------------------|
 | **Baseline Model**                  | 251.01    | 99.5627      | 98.70        | **3702** |
 | **NF4 Quantization**                | **21.11** | 99.5639      | **98.74**    | 1504 |
