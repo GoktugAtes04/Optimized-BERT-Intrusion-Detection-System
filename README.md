@@ -106,4 +106,21 @@ enhancement in terms of throughput by removing the weights of the model or the c
 | **Student Model + SD**      | **72.60** | 99.23        | 96.84   | 3694 |
 ---
 
+### Notes
+
+- Comparison of Quantization Precision Types [(View Results)](Docs/Results/Quantization-Results.png)
+
+- Impact of Structured Pruning and Quantization on Metrics [(View Results)](Docs/Results/Pruning-Quantization-Results.png)
+
+- Metrics for KD and SD Under Different Compression Settings [(View Results)](Docs/Results/KD-SD-Results.png)
+
+---
+
+## 🏁 Benchmark Comparison
+
+<p id="fig-bench-comparison" align="center">
+  <img src="Docs/Results/Benchmark-Comparison.png" alt="Experiment Structure — OB-IDS" width="500">
+</p>
+
+Pruned and FP16 quantized BERT model performed well in UNSWB-NB15 and CIC-IDS2017 datasets compared to LSTM-based IDS. Additionally, All quantizations with/without pruning methods used in the experiment structure performed better rather than LSTM-based IDS. The best experimental model exhibited more successful F1-score performance although it performed as much accuracy performance as CNN-IDS in CIC-IDS2017. It has a more successful performance than CNN-LSTM Hybrid IDS in UNSW-NB15.
 ## 📊 References
