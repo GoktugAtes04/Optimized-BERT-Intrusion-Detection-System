@@ -71,9 +71,9 @@ G. Ateş et al., "OB-IDS: Optimized BERT-based Intrusion Detection System," 2025
 ***3.*** ***Pruning:*** It aims to ensure that the model provides performance
 enhancement in terms of throughput by removing the weights of the model or the components such as neurons located in its intermediate layers.
 
-***4.*** ***Knowledge*** ***Distillation:*** It aims to use soft labels emerging from the teacher model and the ground truth labels contained in the dataset according to the loss function determined during the fine tuning process on the student model, without compromising accuracy and F1-score.
+***4.*** ***Knowledge*** ***Distillation (KD):*** It aims to use soft labels emerging from the teacher model and the ground truth labels contained in the dataset according to the loss function determined during the fine tuning process on the student model, without compromising accuracy and F1-score.
 
-***5.*** ***Self*** ***Distillation:*** It employs the model as its own teacher and it has been shown to get better current performance by not adding parameters to the model or reducing overfitting.
+***5.*** ***Self*** ***Distillation (SD):*** It employs the model as its own teacher and it has been shown to get better current performance by not adding parameters to the model or reducing overfitting.
 
 ---
 
@@ -127,6 +127,6 @@ Pruned and FP16 quantized BERT model performed well in UNSWB-NB15 and CIC-IDS201
 
 ## 📖 References
 
-This repository contains 21 references including network intrusion datasets, Transformer-based traffic classification, and model optimization techniques (quantization, pruning, FP16, knowledge distillation, and self-distillation).
+This repository contains 21 references including network intrusion datasets, Transformer-based text classification, and model optimization methods (Quantization, Pruning, FP16, Knowledge Distillation, and Self Distillation).
 
 **Full Reference List** [(View References)](Docs/References.png) 
