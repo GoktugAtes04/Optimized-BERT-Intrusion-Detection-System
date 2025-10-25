@@ -79,7 +79,7 @@ enhancement in terms of throughput by removing the weights of the model or the c
 
 ## 📑 Experimental Results
 
-### Hardware Specs for Fine-Tuning & Model Evaluation
+### Hardware Specs for Model Fine-Tuning & Evaluation
 
 | **Setting**                  | **Fine-Tuning**                                                                  | **Testing**                                                                       |
 |------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ enhancement in terms of throughput by removing the weights of the model or the c
 | **Memory Type**              | HBM2E (High Bandwidth Memory)                                                | GDDR6 VRAM                                                                                |
                  
 
-### Metrics for Fine-Tuning & Model Evaluation
+### Metrics for Model Fine-Tuning & Evaluation
 - **Model Size (MB)**
 - **Accuracy (%)**
 - **F1-score (%)**
@@ -113,7 +113,7 @@ enhancement in terms of throughput by removing the weights of the model or the c
 
 - Metrics for KD and SD Under Different Compression Settings [(View Results)](Docs/Results/KD-SD-Results.png)
 
-### Source Codes of Fine-Tuning & Model Evaluation
+### Source Codes of Model Fine-Tuning & Evaluation
 
 - Source Code for Quantization and Pruning Methods [(View)](Notebooks/Quantization-Pruning-IDS.ipynb)
 
