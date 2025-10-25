@@ -121,7 +121,6 @@ enhancement in terms of throughput by removing the weights of the model or the c
 
 - Source Code for Model Evaluation [(View)](Notebooks/IDS-Model-Evaluation.ipynb)
 
-Notebooks/Quantization-Pruning-IDS.ipynb
 ---
 
 ## 🏁 Benchmark Comparison
