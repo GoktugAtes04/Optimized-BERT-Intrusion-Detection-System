@@ -138,4 +138,4 @@ Pruned and FP16 quantized BERT model performed well in UNSWB-NB15 and CIC-IDS201
 
 This repository contains 21 references including network intrusion datasets, Transformer-based text classification, and model optimization methods (Quantization, Pruning, Knowledge Distillation, and Self Distillation).
 
-**Full Reference List** [(View References)](Docs/References.png) 
+**Full Reference List** [(View)](Docs/References.png) 
