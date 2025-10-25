@@ -1,4 +1,4 @@
-# Optimized-BERT-Intrusion-Detection-System
+# Optimized BERT-based Intrusion Detection System
 
 <p align="center">
   <img src="Docs/IEEE-BlackSeaCom-Logo.png" width="320" alt="IEEE BlackSeaCom 2025 Logo">
@@ -77,5 +77,56 @@ enhancement in terms of throughput by removing the weights of the model or the c
 
 ---
 
-## 📊 Experimental Results
+## 📑 Experimental Results
 
+### Hardware Specs for Fine-Tuning & Testing
+
+| **Setting**                  | **Fine-Tuning**                                                                  | **Testing**                                                                       |
+|------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| **GPU Model**              | NVIDIA A100                                                                            | NVIDIA L4                                                                                 |
+| **Memory Capacity**          | 40 GB                                                                                  | 22.5 GB                                                                                   |
+| **Memory Type**              | HBM2E (High Bandwidth Memory)                                                | GDDR6 VRAM                                                                                |
+                 
+
+### Metrics for Fine-Tuning & Testing
+- **Model Size (MB)**
+- **Accuracy (%)**
+- **F1-score (%)**
+- **Throughput (flows/s)**, which express the number of m flows in each n batch with the batch rate (n batches per second), such as (1 batch/s x 32 flows)
+
+### Summary of Experimental Results
+
+| Method                              | Size (MB) | Accuracy (%) | F1-score (%) | Throughput (flows/s) |
+|-------------------------------------|-----------|--------------|--------------|---------------------------|
+| **Baseline Model**                  | 251.01    | 99.5627      | 98.70        | **3702** |
+| **NF4 Quantization**                | **21.11** | 99.5639      | **98.74**    | 1504 |
+| **Structured Pruning**              | 251.01    | **99.5655**  | **98.74**    | 3242 |
+| **Structured + FP16**               | 84.44     | **99.5655**  | **98.74**    | 3589 |
+| **NF4 (Teacher) + KD** | **72.60** | 99.19        | 94.02        | 3633 |
+| **Student Model + SD**      | **72.60** | 99.23        | 96.84   | 3694 |
+
+### Details of Experimental Results
+
+- Comparison of Quantization Precision Types [(View Results)](Docs/Results/Quantization-Results.png)
+
+- Impact of Structured Pruning and Quantization on Metrics [(View Results)](Docs/Results/Pruning-Quantization-Results.png)
+
+- Metrics for KD and SD Under Different Compression Settings [(View Results)](Docs/Results/KD-SD-Results.png)
+
+---
+
+## 🏁 Benchmark Comparison
+
+<p id="fig-bench-comparison" align="center">
+  <img src="Docs/Results/Benchmark-Comparison.png" alt="Experiment Structure — OB-IDS" width="500">
+</p>
+
+Pruned and FP16 quantized BERT model performed well in UNSWB-NB15 and CIC-IDS2017 datasets compared to LSTM-based IDS. Additionally, All quantizations with/without pruning methods used in the experiment structure performed better rather than LSTM-based IDS. The best experimental model exhibited more successful F1-score performance although it performed as much accuracy performance as CNN-IDS in CIC-IDS2017. It has a more successful performance than CNN-LSTM Hybrid IDS in UNSW-NB15.
+
+---
+
+## 📖 References
+
+This repository contains 21 references including network intrusion datasets, Transformer-based traffic classification, and model optimization techniques (quantization, pruning, FP16, knowledge distillation, and self-distillation).
+
+**Full Reference List** [(View References)](Docs/References.png) 
