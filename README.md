@@ -116,11 +116,13 @@ enhancement in terms of throughput by removing the weights of the model or the c
 
 ### Source Codes of Fine-Tuning & Model Evaluation
 
-- Source Code for Quantization and Pruning Methods [(View)](Docs/Notebooks/Quantization-Pruning-IDS.ipynb)
+- Source Code for Quantization and Pruning Methods [(View)](Notebooks/Quantization-Pruning-IDS.ipynb)
 
-- Source Code for Knowledge Distillation and Self Distillation Methods [(View)](Docs/Notebooks/Knowledge-Self-Distillation-IDS.ipynb)
+- Source Code for Knowledge Distillation and Self Distillation Methods [(View)](Notebooks/Knowledge-Self-Distillation-IDS.ipynb)
 
-- Source Code for Model Evaluation [(View)](Docs/Notebooks/IDS-Model-Evaluation.ipynb)
+- Source Code for Model Evaluation [(View)](Notebooks/IDS-Model-Evaluation.ipynb)
+
+Notebooks/Quantization-Pruning-IDS.ipynb
 ---
 
 ## 🏁 Benchmark Comparison
