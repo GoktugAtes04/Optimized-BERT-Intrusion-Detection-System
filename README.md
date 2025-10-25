@@ -79,14 +79,20 @@ enhancement in terms of throughput by removing the weights of the model or the c
 
 ## 📑 Experimental Results
 
-### Hardware Specs & Metrics for Fine-Tuning & Testing
+### Hardware Specs for Fine-Tuning & Testing
 
 | **Setting**                  | **Fine-Tuning**                                                                  | **Testing**                                                                       |
 |------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | **GPU Model**              | NVIDIA A100                                                                            | NVIDIA L4                                                                                 |
 | **Memory Capacity**          | 40 GB                                                                                  | 22.5 GB                                                                                   |
 | **Memory Type**              | HBM2E (High Bandwidth Memory)                                                | GDDR6 VRAM                                                                                |
-| **Metrics**       | Model Size (MB), Accuracy (%), F1-score (%), Throughput (flows/s)                            
+                 
+
+### Metrics for Fine-Tuning & Testing
+- **Model Size (MB)**
+- **Accuracy (%)**
+- **F1-score (%)**
+- **Throughput (flows/s)**,which express the number of m flows in each n batch with the batch rate (n batches per second), such as (1 batch/s x 32 flows)
 
 ### Model Performance Metrics
 
