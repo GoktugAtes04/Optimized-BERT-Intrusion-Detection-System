@@ -108,7 +108,6 @@ enhancement in terms of throughput by removing the weights of the model or the c
 ### Details of Experimental Results
 
 - Comparison of Quantization Precision Types [(View Results)](Docs/Results/Quantization-Results.png)
-[Source Code for Quantization Methods](Docs/Notebooks/Quantization-IDS.ipynb)
 
 - Impact of Structured Pruning and Quantization on Metrics [(View Results)](Docs/Results/Pruning-Quantization-Results.png)
 
