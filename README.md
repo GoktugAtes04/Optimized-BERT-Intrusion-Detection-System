@@ -11,8 +11,8 @@
   <i>Accepted for presentation and publication in the Proceedings of IEEE BlackSeaCom 2025</i>
 </p>
 
-<table align="center" cellspacing="6">
-  <tr>
+<table align="center" border="0" cellpadding="0" cellspacing="8" role="presentation">
+  <tr valign="middle">
     <td>
       <a href="./LICENSE">
         <img alt="License" src="https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square">
