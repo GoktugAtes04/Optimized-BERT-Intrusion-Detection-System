@@ -25,7 +25,7 @@
     <img alt="CUDA" src="https://img.shields.io/badge/CUDA-12.x-76B900?logo=nvidia&logoColor=white&style=flat-square">
   </a>&nbsp;
   <a href="https://doi.org/10.1109/BlackSeaCom65655.2025.11193891">
-    <img alt="DOI" src="https://img.shields.io/badge/DOI-10.1109%2FBlackSeaCom65655.2025.11193891-3C9?logo=googlescholar&logoColor=white&style=flat-square">
+    <img alt="DOI" src="https://img.shields.io/badge/DOI-10.1109%2FBlackSeaCom65655.2025.11193891-8E24AA?logo=googlescholar&logoColor=white&style=flat-square">
   </a>&nbsp;
 </p>
 
