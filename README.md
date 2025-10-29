@@ -11,35 +11,23 @@
   <i>Accepted for presentation and publication in the Proceedings of IEEE BlackSeaCom 2025</i>
 </p>
 
-<table align="center" border="0" cellpadding="0" cellspacing="8" role="presentation">
-  <tr valign="middle">
-    <td>
-      <a href="./LICENSE">
-        <img alt="License" src="https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square">
-      </a>
-    </td>
-    <td>
-      <a href="https://www.python.org/downloads/">
-        <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white&style=flat-square">
-      </a>
-    </td>
-    <td>
-      <a href="https://pytorch.org/get-started/">
-        <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white&style=flat-square">
-      </a>
-    </td>
-    <td>
-      <a href="https://developer.nvidia.com/cuda-zone">
-        <img alt="CUDA" src="https://img.shields.io/badge/CUDA-12.x-76B900?logo=nvidia&logoColor=white&style=flat-square">
-      </a>
-    </td>
-    <td>
-      <a href="https://doi.org/10.1109/BlackSeaCom65655.2025.11193891">
-        <img alt="DOI" src="https://img.shields.io/badge/DOI-10.1109%2FBlackSeaCom65655.2025.11193891-8E24AA?logo=googlescholar&logoColor=white&style=flat-square">
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="./LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square">
+  </a>
+  <a href="https://www.python.org/downloads/">
+    <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white&style=flat-square">
+  </a>
+  <a href="https://pytorch.org/get-started/">
+    <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white&style=flat-square">
+  </a>
+  <a href="https://developer.nvidia.com/cuda-zone">
+    <img alt="CUDA" src="https://img.shields.io/badge/CUDA-12.x-76B900?logo=nvidia&logoColor=white&style=flat-square">
+  </a>
+  <a href="https://doi.org/10.1109/BlackSeaCom65655.2025.11193891">
+    <img alt="DOI" src="https://img.shields.io/badge/DOI-10.1109%2FBlackSeaCom65655.2025.11193891-1E88E5?logo=googlescholar&logoColor=white&style=flat-square">
+  </a>
+</p>
 
 ---
 
